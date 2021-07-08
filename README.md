@@ -1,5 +1,8 @@
 # video
 
+## 参考
+【公式ドキュメント】https://flutter.dev/docs/cookbook/plugins/play-video
+
 A new Flutter application.
 
 ## Getting Started
