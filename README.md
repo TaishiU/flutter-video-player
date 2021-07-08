@@ -1,5 +1,8 @@
 # video
 
+![74317B55-878D-458D-95A3-4FB8B8DA525E_1_201_a](https://user-images.githubusercontent.com/73986840/124857411-36841f80-dfe7-11eb-8916-ff2bcd0a8797.jpeg)
+
+
 ## 参考
 【公式ドキュメント】https://flutter.dev/docs/cookbook/plugins/play-video
 
