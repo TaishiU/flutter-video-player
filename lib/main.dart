@@ -210,7 +210,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Chewie Sample',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -265,13 +265,13 @@ class _MyHomePageState extends State<MyHomePage> {
       looping: true,
       // Try playing around with some of these other options:
 
-      //showControls: false,
-      materialProgressColors: ChewieProgressColors(
-        playedColor: Colors.red,
-        handleColor: Colors.blue,
-        backgroundColor: Colors.grey,
-        bufferedColor: Colors.lightGreen,
-      ),
+      showControls: true,
+      // materialProgressColors: ChewieProgressColors(
+      //   playedColor: Colors.red,
+      //   handleColor: Colors.blue,
+      //   backgroundColor: Colors.grey,
+      //   bufferedColor: Colors.lightGreen,
+      // ),
       placeholder: Container(
         color: Colors.black,
       ),
